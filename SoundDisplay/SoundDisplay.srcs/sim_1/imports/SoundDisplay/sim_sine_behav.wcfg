@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sim_sine_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="sim_sine" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="15093969999fs"></ZoomStartTime>
+      <ZoomEndTime time="15470470000fs"></ZoomEndTime>
+      <Cursor1Time time="15217470000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="117"></NameColumnWidth>
+      <ValueColumnWidth column_width="107"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/sim_sine/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/vol" type="array">
+      <obj_property name="ElementShortName">vol[3:0]</obj_property>
+      <obj_property name="ObjectShortName">vol[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/freq_est" type="array">
+      <obj_property name="ElementShortName">freq_est[12:0]</obj_property>
+      <obj_property name="ObjectShortName">freq_est[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/timer_count" type="array">
+      <obj_property name="ElementShortName">timer_count[14:0]</obj_property>
+      <obj_property name="ObjectShortName">timer_count[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/max_count" type="array">
+      <obj_property name="ElementShortName">max_count[15:0][14:0]</obj_property>
+      <obj_property name="ObjectShortName">max_count[15:0][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/min_count" type="array">
+      <obj_property name="ElementShortName">min_count[15:0][14:0]</obj_property>
+      <obj_property name="ObjectShortName">min_count[15:0][14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/volume_record" type="array">
+      <obj_property name="ElementShortName">volume_record[6:0][3:0]</obj_property>
+      <obj_property name="ObjectShortName">volume_record[6:0][3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/estimate" type="array">
+      <obj_property name="ElementShortName">estimate[14:0]</obj_property>
+      <obj_property name="ObjectShortName">estimate[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/estimate_match" type="array">
+      <obj_property name="ElementShortName">estimate_match[3:0]</obj_property>
+      <obj_property name="ObjectShortName">estimate_match[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/compare_complete" type="logic">
+      <obj_property name="ElementShortName">compare_complete</obj_property>
+      <obj_property name="ObjectShortName">compare_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/sample_complete" type="logic">
+      <obj_property name="ElementShortName">sample_complete</obj_property>
+      <obj_property name="ObjectShortName">sample_complete</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_sine/mf/min_index" type="array">
+      <obj_property name="ElementShortName">min_index[3:0]</obj_property>
+      <obj_property name="ObjectShortName">min_index[3:0]</obj_property>
+   </wvobject>
+</wave_config>

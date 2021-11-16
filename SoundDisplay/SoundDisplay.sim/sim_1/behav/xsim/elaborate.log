@@ -1,0 +1,15 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto 56d1f0a1532a459a8f570e8f7b18ccb9 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot sim_sine_behav xil_defaultlib.sim_sine xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 4 for port freq [C:/Users/justi/OneDrive/Documents/Verilog/SoundDisplay.xpr/SoundDisplay/SoundDisplay.srcs/sim_1/new/sim_sine.v:37]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.sine_sim
+Compiling module xil_defaultlib.measure_frequency
+Compiling module xil_defaultlib.sim_sine
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_sine_behav
